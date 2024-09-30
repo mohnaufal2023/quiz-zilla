@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mooafit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fakultas <span style="color: rgb(208, 247, 9);">teknik</span></h1>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </header>
+
+    <section>
+        <img src="images/civil.png" alt="Showcase Image" class="header-image">
+    </section>
+
+    <section class="card">
+        <h2>tentang fakultas</h2>
+        <p>selamat datang di fakultas teknik, Menjadikan Fakultas Teknik sebagai lembaga pendidikan tinggi yang berkualitas, berbudaya, dan memiliki daya saing globa</p>
+    </section>
+
+    <section class="card">
+        <h2>Jurusan</h2>
+        <ul>
+            <li>teknik elektro</li>
+            <li>teknik sipil</li>
+            <li>teknik mesin</li>
+        </ul>
+    </section>
+
+    
+    <section class="card">
+        <h2>jurusan</h2>
+        <form id="demoForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="skill">Skill:</label>
+            <select id="skill" name="skill">
+                <option value="HTML">civil</option>
+                <option value="CSS">mesin</option>
+                <option value="JavaScript">elektro</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="successMessage" class="hidden">Form submitted successfully!</p>
+    </section>
+
+    <footer>
+        <p>terimakasih telah berkunjung</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
